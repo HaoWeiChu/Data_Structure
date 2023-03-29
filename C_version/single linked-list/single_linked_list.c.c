@@ -16,14 +16,14 @@ struct Node* create_node(int data) {
     return new_node;
 }
 
-// 向鏈表的尾部添加一個新節點
+// 向鏈結的尾部添加一個新節點
 void add_node(struct Node** head_ref, int data) {
     struct Node* new_node = create_node(data);
     if (*head_ref == NULL) {
-        // 如果鏈表為空，則將新節點作為鏈表的頭節點
+        // 如果鏈結為空，則將新節點作為頭節點
         *head_ref = new_node;
     } else {
-        // 如果鏈表不為空，則將新節點添加到鏈表的尾部
+        // 如果鏈結不為空，則將新節點添加到尾部
         struct Node* curr_node = *head_ref;
         while (curr_node->next != NULL) {
             curr_node = curr_node->next;
@@ -32,10 +32,10 @@ void add_node(struct Node** head_ref, int data) {
     }
 }
 
-// 從鏈表中刪除第一個值等於給定數據的節點
+// 從鏈結中刪除第一個值等於給定數據的節點
 void delete_node(struct Node** head_ref, int data) {
     if (*head_ref == NULL) {
-        // 如果鏈表為空，則不進行任何操作
+        // 如果鏈結為空，則不進行任何操作
         return;
     }
     if ((*head_ref)->data == data) {
@@ -44,7 +44,7 @@ void delete_node(struct Node** head_ref, int data) {
         *head_ref = (*head_ref)->next;
         free(temp_node);
     } else {
-        // 否則在鏈表中查找要刪除的節點
+        // 否則在鏈結中查找要刪除的節點
         struct Node* prev_node = *head_ref;
         struct Node* curr_node = (*head_ref)->next;
         while (curr_node != NULL && curr_node->data != data) {
@@ -63,14 +63,14 @@ void print_list(struct Node* head) {
     // 宣告一個指向節點的指針，初始值為 head
     struct Node* current = head;
 
-    // 遍歷整個鏈表，打印每個節點的數據
+    // 循環整個鏈結，打印每個節點的數據
     while (current != NULL) {
         printf("%d ", current->data);
         current = current->next;
     }
     printf("\n");
 }
-// 打印整個鏈表的數據
+// 打印整個鏈結的數據
 int main(){
     struct Node* head =NULL;
     add_node(&head,10);
