@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 22 15:15:27 2023
 
-@author: howger
-"""
 import numpy as np
 MAX = int(input("設定最大矩陣範圍   "))
 # 初始化矩陣為 全 0 矩陣
