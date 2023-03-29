@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-// 定義單向鏈表的節點結構
+// 定義單向鏈結的節點結構
 struct Node {
     int data;          // 節點存儲的數據
     struct Node* next; // 指向下一個節點的指針
