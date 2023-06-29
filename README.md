@@ -16,6 +16,6 @@
 * [Stack_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/stack/stack.c)
 * [Stack_Python](https://github.com/HaoWeiChu/Data_Structure/blob/master/Python_version/stack/stack.py)
 ### [Single linked list]
-* [Single_linked_list_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/single%20linked-list/single_linked_list.c.c)
+* [Single_linked_list_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/single%20linked-list/single_linked_list.c)
 * [Single_linked_list_Python](https://github.com/HaoWeiChu/Data_Structure/blob/master/Python_version/single%20linked-list/single_linked_list_revised_version.py)
 ### [Tree]
