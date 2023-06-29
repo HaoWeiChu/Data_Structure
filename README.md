@@ -19,3 +19,8 @@
 * [Single_linked_list_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/single%20linked-list/single_linked_list.c)
 * [Single_linked_list_Python](https://github.com/HaoWeiChu/Data_Structure/blob/master/Python_version/single%20linked-list/single_linked_list_revised_version.py)
 ### [Tree]
+* [Tree_Binary_Search_tree_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/tree/Binary%20Search%20Tree.c)
+* [Tree_The depth of tree_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/tree/The%20depth%20of%20tree.c)
+* [Tree_Tranversal_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/tree/Tree_tranversal.c)
+* [Tree_Delete tree element_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/tree/delete_tree.c)
+* [Tree_Breadth first search_C](https://github.com/HaoWeiChu/Data_Structure/blob/master/C_version/tree/BFS.c)
